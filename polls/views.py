@@ -18,3 +18,6 @@ def detailView(request,question_id):
     return render(request,"polls/detail_question.html",{"qs":q})
 def loginView(request):
     return render(request,'polls/login.html')
+
+def bookcourse(request):
+    return render(request,'polls/bookcourse.html')

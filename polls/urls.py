@@ -6,5 +6,6 @@ urlpatterns = [
     path('detail/<int:question_id>',views.detailView,name="detail"),
     path('',views.index,name='index'),
     path('list/',views.viewlist,name='view_list'),
-    path('login/',views.loginView,name='login')
+    path('login/',views.loginView,name='login'),
+    path('bookcourse/',views.bookcourse,name='bookcourse')
 ]
