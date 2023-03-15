@@ -133,6 +133,7 @@ body{
   padding:0.9rem 4rem;
   text-transform:uppercase;
   transition:transform 80ms ease-in;
+  display: inline-block;
 }
 .form > .btn{
   margin-top:1.5rem;
