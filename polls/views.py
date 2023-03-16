@@ -19,5 +19,5 @@ def detailView(request,question_id):
 def loginView(request):
     return render(request,'polls/login.html')
 
-def bookcourse(request):
-    return render(request,'polls/bookcourse.html')
+def Classes(request):
+    return render(request,'polls/Classes.html')
